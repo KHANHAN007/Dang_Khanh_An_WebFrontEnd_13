@@ -1,0 +1,823 @@
+:root {
+    --bg-color: #0A0A0A;
+    --btn-color: #D3E97A;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 4930px;
+    background-color: var(--bg-color);
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    padding: 24px 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation .robert {
+    color: #C7C7C7;
+    font-family: "Bebas Neue";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+}
+
+.nava {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.frame {
+    display: none;
+}
+
+.nava a {
+    color: #C7C7C7;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-decoration: none;
+}
+
+.image div {
+    width: 600px;
+    height: 700px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #C7C7C7;
+    background-image: url(./assets/potrait.jpg);
+    background-color: lightgray;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.home {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 108px;
+    padding-right: 108px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container1 {
+    display: flex;
+    width: 544px;
+    padding-bottom: 22px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.home .content-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.content-title .HI {
+    align-self: stretch;
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 101px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90%;
+}
+
+.content-title .content {
+    align-self: stretch;
+    color: #C7C7C7;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.container1 .action {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.container1 .action .contact {
+    display: flex;
+    height: 54px;
+    padding: 20px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 100px;
+    background: #D3E97A;
+}
+
+.container1 .action .contact a {
+    color: #0A0A0A;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.container1 .action .linkldn {
+    display: flex;
+    width: 54px;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: #222;
+    border: none;
+}
+
+.container1 .action .github {
+    display: flex;
+    width: 54px;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: #222;
+    border: none;
+}
+
+.line {
+    margin-top: 80px;
+    display: block;
+    background-color: #484848;
+    height: 1px;
+}
+
+.line2 {
+    display: block;
+    background-color: #484848;
+    height: 1px;
+}
+
+.web {
+    display: inline-flex;
+    padding: 80px 108px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.web .title-content {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.web .title-content .title {
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.web .title-content .content {
+    color: #C7C7C7;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.web .project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 40px;
+    gap: 48px;
+}
+
+.web .project .card {
+    width: 600px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #1A1A1A;
+    margin-left: 148px;
+    position: relative;
+}
+
+.web .project .tag {
+    display: inline-flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 100px;
+    background: #0A0A0A;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.web .project .image {
+    width: 486px;
+    height: 347px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 2px solid #000;
+    background: url(./assets/work.png) lightgray -83px -48.45px / 133.951% 378.343% no-repeat;
+    position: absolute;
+    top: 126px;
+    left: 57px;
+}
+
+.web .container-content {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    flex-grow: 1;
+}
+
+.web .container-content .title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.web .container-content .title-container .title {
+    color: white;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.web .container-content .title-container .content {
+    color: #C7C7C7;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.web .container-content .project-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.web .container-content .project-info .title-info {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.web .container-content .project-info .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    align-self: stretch;
+    border-bottom: 1px solid #484848;
+}
+
+.web .container-content .project-info .list .year {
+    display: flex;
+    padding: 16px 0px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-top: 1px solid #484848;
+}
+
+.web .container-content .project-info .list .year .content-var {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.web .container-content .project-info .button-contact {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.web .container-content .project-info .button-contact .title-arrow {
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.web .container-content .project-info .button-contact .link-demo .title-arrow .title {
+    color: #D3E97A;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.web .container-content .project-info .button-contact .link-demo .underline1 {
+    width: 111px;
+    height: 2px;
+    background: #D3E97A;
+}
+
+.web .container-content .project-info .button-contact .link-demo .underline2 {
+    width: 149px;
+    height: 2px;
+    background: #D3E97A;
+}
+
+.button-contact .link-demo .underline3 {
+    width: 129px;
+    height: 2px;
+    background: #D3E97A;
+}
+
+.web .project2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+    width: 100%;
+}
+
+.web .project2 .card {
+    width: 600px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #1A1A1A;
+    position: relative;
+}
+
+.web .project2 .tag {
+    display: inline-flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 100px;
+    background: #0A0A0A;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.web .project2 .image {
+    width: 486px;
+    height: 347px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border-radius: 12px;
+    background: url(./assets/image\ 10.png) lightgray 50% / cover no-repeat;
+    position: absolute;
+    top: 126px;
+    left: 57px;
+}
+
+.web .project3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+    width: 100%;
+}
+
+.web .project3 .card {
+    width: 600px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #1A1A1A;
+    position: relative;
+}
+
+.web .project3 .tag {
+    display: inline-flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 100px;
+    background: #0A0A0A;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.web .project3 .image {
+    width: 486px;
+    height: 347px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 2px solid #000;
+    background: url(./assets/image\ 9.png)lightgray 50% / cover no-repeat;
+    position: absolute;
+    top: 126px;
+    left: 57px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 122px 108px;
+    height: 860px;
+    gap: 300px;
+}
+
+.about-me .title1 {
+    flex-shrink: 0;
+    width: 307px;
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 101px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90%;
+}
+
+.about-me .container-am {
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+}
+
+.about-me .container-am .container-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.about-me .container-am .container-content .title-child {
+    align-self: stretch;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.about-me .container-am .container-content .content-child {
+    align-self: stretch;
+    color: #C7C7C7;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+.link-aboutme {
+    color: #D3E97A;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.connect-container {
+    display: flex;
+    width: 100%;
+    padding: 80px 108px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+}
+
+.connect-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+    height: 682px;
+}
+
+.let-connect {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.let-connect .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.let-connect .content-container .title {
+    width: 600px;
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.let-connect .content-container .title-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.let-connect .content-container .title-content .content-child {
+    display: flex;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.let-connect .content-container .title-content .child1 {
+    color: #C7C7C7;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.let-connect .content-container .title-content .child2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.let-connect .content-container .title-content .underline4 {
+    width: 204px;
+    height: 1px;
+    background: #D3E97A;
+}
+
+.let-connect .content-container .title-content .underline5 {
+    width: 63px;
+    height: 1px;
+    background: #D3E97A;
+}
+
+.let-connect .link-connect {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.bq {
+    color: #C7C7C7;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    position: absolute;
+    bottom: 80px;
+    left: 108px;
+}
+
+.connect-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    flex: 1 0 0;
+    width: 100%;
+}
+
+.connect-container input,
+textarea {
+    width: 600px;
+    align-self: stretch;
+    display: flex;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    background: #1A1A1A;
+    border: none;
+}
+
+.connect-container input {
+    color: #FFF;
+    height: 51px;
+}
+
+.connect-container textarea {
+    height: 156px;
+}
+
+.connect-container .form-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.connect-container label {
+    color: #C7C7C7;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.connect-container .form-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.connect-container .btn {
+    width: 140px;
+    display: flex;
+    height: 54px;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 100px;
+    background: #D3E97A;
+    color: #0A0A0A;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:768px) {
+    .navigation {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .nava {
+        display: none;
+    }
+
+    .robert {
+        font-size: 28px;
+    }
+
+    .frame {
+        display: block;
+        display: flex;
+        height: 44px;
+        padding: 0px 6px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home {
+        flex-direction: column !important;
+    }
+
+    .project {
+        justify-content: center !important;
+        align-items: flex-start !important;
+        flex-direction: column !important;
+        flex-shrink: 1 !important;
+    }
+
+    .project2 {
+        justify-content: center !important;
+        align-items: flex-start !important;
+        flex-direction: column !important;
+        flex-shrink: 1 !important;
+    }
+
+    .project3 {
+        justify-content: center !important;
+        align-items: flex-start !important;
+        flex-direction: column !important;
+        flex-shrink: 1 !important;
+    }
+
+    .card {
+        width: 100% !important;
+        margin: 0 !important;
+        flex-shrink: 1 !important;
+    }
+
+    .card .image {
+        width: 70% !important;
+        height: 70% !important;
+        flex-shrink: 1 !important;
+    }
+
+    .web .title-content {
+        flex-shrink: 1 !important;
+        width: 100%;
+    }
+
+    .about-me {
+        height: 775px;
+        gap: 0;
+        flex-shrink: 0 !important;
+        flex-direction: column;
+    }
+
+    .connect-container {
+        width: 100% !important;
+        flex-shrink: 0 !important;
+        flex-direction: column;
+    }
+
+    input,
+    textarea{
+        width: 100% !important;
+    }
+    .btn{
+        width: 40% !important;
+    }
+    *{
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+    .bq{
+        bottom: 30px;
+        left: 18px;
+    }
+}
